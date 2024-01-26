@@ -48,8 +48,8 @@ def commit_age_in_days(commit_date):
         return 0
 
 if __name__ == '__main__':
-    path = '/home/rik/Documents/github/vale'
-    file_exts = ['.py', '.md']  # Example file extensions
+    path = '../vale'
+    file_exts = ['.md']  # Example file extensions
     age, frequency = analyze_git_repo(path, file_extensions=file_exts)
     print(age)
     print(frequency)

@@ -9,6 +9,7 @@ plotly = "*"
 pandas = "*"
 gitpython = "*"
 pyarrow = "*"
+dash-bootstrap-components = "*"
 
 [dev-packages]
 
